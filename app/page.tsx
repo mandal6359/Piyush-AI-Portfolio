@@ -7,6 +7,8 @@ import Scene3D from "../components/Scene3D";
 import Loader from "../components/Loader";
 import GithubStats from "../components/GithubStats";
 import SkillRadar from "../components/SkillRadar";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
         <AIChat />
         <GithubStats />
         <SkillRadar />
+        <Contact />
+        <Footer />
       </main>
     </Loader>
   );

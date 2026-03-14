@@ -31,6 +31,25 @@ export default function Hero() {
         applications solving real-world problems.
       </p>
 
+      <div className="mt-6 flex gap-4">
+
+<a
+href="/resume.pdf"
+download
+className="bg-cyan-400 text-black px-6 py-2 rounded font-bold"
+>
+Download Resume
+</a>
+
+<a
+href="#contact"
+className="border border-cyan-400 px-6 py-2 rounded text-cyan-400"
+>
+Get In Touch
+</a>
+
+</div>
+
     </section>
   );
 }
