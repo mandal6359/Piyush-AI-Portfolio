@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Piyush Prabhakar Mandal — AI Portfolio
+
+> Personal portfolio website built with Next.js 16, Three.js, Framer Motion and Tailwind CSS v4.
+
+🌐 **Live:** [piyush-ai-portfolio.vercel.app](https://piyush-ai-portfolio.vercel.app)
+
+---
+
+## Tech Stack
+
+- **Framework** — Next.js 16 (App Router)
+- **Styling** — Tailwind CSS v4
+- **Animations** — Framer Motion
+- **3D Background** — Three.js + React Three Fiber
+- **Charts** — Chart.js + react-chartjs-2
+- **GitHub Activity** — react-github-calendar
+- **Contact Form** — FormSubmit.co
+
+## Sections
+
+| Section | Description |
+|---|---|
+| Hero | Typing animation, avatar, CTA buttons |
+| About | Bio, stats, quick info |
+| Projects | Filterable project cards (ML / AI / Data / Tools) |
+| Skills | Progress bars by category + tools cloud |
+| Experience | Vertical timeline |
+| Achievements | Certifications (Credly) + key highlights |
+| GitHub | Contribution calendar + repo cards |
+| AI Chat | Keyword-based chatbot about Piyush |
+| Contact | Form + all social links |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Updating Your Info
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All personal data lives in one file:
 
-## Learn More
+```
+config/portfolio.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+Edit your name, bio, social links, projects, certifications, resume path — everything updates across the site automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── api/chat/route.js     # AI chatbot API
+│   ├── globals.css           # Global styles + animations
+│   ├── layout.tsx            # Root layout + metadata
+│   └── page.js               # Main page
+├── components/               # All UI sections
+├── config/
+│   └── portfolio.js          # ← Edit your data here
+└── public/                   # Images, resume PDF
+```
 
-## Deploy on Vercel
+## Connect
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- GitHub: [github.com/mandal6359](https://github.com/mandal6359)
+- LinkedIn: [linkedin.com/in/piyushmandal](https://www.linkedin.com/in/piyushmandal/)
+- Credly: [credly.com/users/piyush-prabhakar-mandal](https://www.credly.com/users/piyush-prabhakar-mandal)
+- Email: piyushmandal6359@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built with ❤️ by Piyush Prabhakar Mandal
